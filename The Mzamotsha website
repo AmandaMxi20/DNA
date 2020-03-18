@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial=scale=1">
+<link rel="sylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/
+css/font-awesome.min.css">
+<style>
+
+*{box-sizing:border-box;}
+body{margin:0;}
+
+.dropbtn{
+ background-color: #4caf50;
+ color:white;
+ padding:16px;
+ border:none;
+ cursor: pointer;   
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display:none;
+    position:absolute; 
+    background-color:#f9f9f9 ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0 px rgba(0, 0, 0,0.2);
+    z-index: 1;
+
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.icon-bar{
+width: 50%;
+background-color:#555;
+overflow: auto;
+}
+.icon-bar a{
+float:left;
+width:20%;
+display:block;
+text-align:right;
+padding: 12px 0;
+transition: all 0.3s ease;
+color:white;
+font-size: 36px;
+}
+.icon-bar a:hover{
+    background-color:grey;
+}
+.active{
+    background-color:#4caf50; 
+
+}
+
+
+
+
+
+
+</style>
+<img src="mzamomtsha.png" alt="logo" style="width: 50%;">
+
+
+ <div class="dropdown"></div>
+<button class="dropbtn" >Apply</button>
+<div class="dropdown-content">
+    <a href="#">Student Register</a>
+    <a href="#">Vacancies</a>
+
+</div>
+  <div class="icon-bar">
+<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home </a>
+<a href="#"><i class="fa fa-fw fa-History"></i> History </a>
+<a href="#"><i class="fa fa-fw fa-Staff"></i>  Staff </a>
+<a href="#"><i class="fa fa-fw fa-Gallery"></i> Gallery</a>
+<a href="#"><i class="fa fa-fw fa-Donate"></i>Donate</a>
+
+
+           
+</div>
+
+</html>
